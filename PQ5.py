@@ -1,5 +1,4 @@
 # Input two numbers and print all prime numbers between them
-
 print (" The First input always should be >1 as no. 1 is not a prime number")
 n1 = int (input ("Please enter the 1st number = "))
 n2 = int (input ("Please enter the 2nd number = "))
