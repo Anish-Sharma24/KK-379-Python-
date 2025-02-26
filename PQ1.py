@@ -8,6 +8,8 @@ if no1 < no2:
             continue
         else:
             print (no1)
+elif no1 == no2:
+    print ("Please give range")
 else:
     while no2 < no1:
         no2 = no2 + 1
