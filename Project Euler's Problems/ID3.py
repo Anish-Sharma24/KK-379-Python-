@@ -8,10 +8,9 @@ while mainloop <= 600851475143:
     if 600851475143 % mainloop == 0:
         subloop = 2
         while subloop <= mainloop - 1:
-            if mainloop % subloop == 0:
-                break
+            if mainloop % subloop != 0:
+                basicstore = mainloop
             subloop = subloop + 1
-            basicstore = mainloop
     mainloop = mainloop + 1
 if mainloop > basicstore:
     largerstore = mainloop
