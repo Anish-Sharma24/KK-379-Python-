@@ -14,6 +14,6 @@ while mainloop < number:
             if mainloop > basicstore:
                 basicstore = mainloop
             subloop = subloop + 1
-            print (mainloop)
+#            print (mainloop)
     mainloop = mainloop + 1
 print (basicstore)
