@@ -21,4 +21,3 @@ while mainloop < number:
         if count == 0:
             print (mainloop)
     mainloop = mainloop + 1
-#print (basicstore)
