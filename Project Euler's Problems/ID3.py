@@ -4,16 +4,21 @@
 mainloop = 2
 basicstore = 0
 largerstore = 0
+count = 0
 number = int (input ("Enter the number = "))
 while mainloop < number:
     if number % mainloop == 0:
         subloop = 2
-        while subloop <= mainloop - 1:
+        while subloop < mainloop:
             if mainloop % subloop == 0:
+                count = 1
                 break
+            else:
+                count = 0
             if mainloop > basicstore:
                 basicstore = mainloop
             subloop = subloop + 1
-        print (mainloop)
+        if count == 0:
+            print (mainloop)
     mainloop = mainloop + 1
 #print (basicstore)
