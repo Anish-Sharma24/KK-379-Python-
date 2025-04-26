@@ -11,7 +11,7 @@ while loop1 < 1000:
         number = loop1 * loop2
         while number != 0:
             q = number % 10
-            reversenumber = (q * 10) + q
+            reversenumber = (reversenumber * 10) + q
             number = number // 10
         loop2 = loop2 + 1
         if reversenumber == number:
